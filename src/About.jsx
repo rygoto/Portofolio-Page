@@ -19,8 +19,7 @@ function About() {
                 <p >an interacting UI with 3D space. </p>
             </div>
             <div className={isVisible ? 'fadeIn' : ''} style={{ '--animation-order': 2 }}>
-                <p >For now, I'm a university student in Japan,</p>
-                <p >and looking for a job. </p>
+                <p >I'm a software engineer.</p>
             </div>
             <div className={isVisible ? 'fadeIn' : ''} style={{ '--animation-order': 3 }}>
                 <p >Here are my products.</p>

@@ -8,7 +8,7 @@ function Contact() {
     };
 
     const handleTwitterClick = () => {
-        window.open("https://twitter.com/eight_999_q", '_blank');
+        window.open("https://twitter.com/punipunikun8", '_blank');
     };
 
     const handleLinkedInClick = () => {
@@ -18,7 +18,7 @@ function Contact() {
     return (
         <div className="contact-info">
             <p><IoMdMail /> Email: ryuunosukegotou0@gmail.com</p>
-            <p onClick={handleTwitterClick}><IoLogoTwitter /> Twitter: @eight_999_q</p>
+            <p onClick={handleTwitterClick}><IoLogoTwitter /> Twitter: @punipunikun8</p>
             <p onClick={handleLinkedInClick}><IoLogoLinkedin /> LinkedIn: Ryu</p>
         </div>
     );
